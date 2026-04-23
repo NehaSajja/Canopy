@@ -127,8 +127,14 @@ plant-geopriors/
 │   └── exp_multimodal.yaml           # Multimodal model config
 ├── data/
 │   ├── CA_3Species_Raw.csv           # Raw GBIF data for California (not tracked)
-│   ├── iNaturalist_2021_DataSet/     # Full 2021 competition data (not tracked)
-│   └── selections_ca/               # Selected species metadata + sample images
+│   ├── image_metadata.csv            # Downloaded image index used for training
+│   ├── images/                       # Downloaded training images
+│   └── iNaturalist_2021_DataSet/     # Full 2021 competition data (not tracked)
+├── artifacts/
+│   ├── time_geo_species_df.csv       # Exported EDA observation table
+│   ├── label_encoder.pkl             # Shared class encoder for models
+│   ├── label_mapping.json            # Readable label mapping
+│   └── selections_ca/                # EDA caches and selected-species artifacts
 ├── checkpoints/                      # Saved model weights (not tracked)
 └── results/                          # Evaluation outputs (not tracked)
 ```
