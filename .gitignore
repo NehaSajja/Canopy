@@ -12,15 +12,6 @@ venv/
 # OS
 .DS_Store
 
-#models
-checkpoints/
-*.pt
-*.pth
-
-# Generated artifacts and evaluation outputs
-artifacts/
-results/
-
 # Data (too large to track)
 data/
 CA_3Species_Raw.csv
