@@ -1,0 +1,57 @@
+{
+  "script_version": "1.0.0",
+  "generated_at": "2026-05-07T13:59:07.681294+00:00",
+  "seed": 42,
+  "val_frac": 0.15,
+  "test_frac": 0.15,
+  "inputs": {
+    "time_geo_species_df": {
+      "path": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/time_geo_species_df.csv",
+      "sha256": "2518e7b88b37c7a610dcf581fb27c41b968709ca7d48325ea52af6d7b394c963",
+      "rows": 108070
+    },
+    "split_iid": {
+      "path": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/split_iid.csv",
+      "sha256": "d303e3e67382c5f1abf84bdd77930a96674f0867a5cfca6ef8e1f617627386dd",
+      "rows": 4400
+    },
+    "label_mapping": {
+      "path": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/label_mapping.json",
+      "sha256": "f3d490507b716666b785554460a58768a7d1bdb6956a5dbb2666adc8ef72b43e",
+      "species_count": 44
+    },
+    "label_encoder": {
+      "path": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/label_encoder.pkl",
+      "sha256": "339ec7b70ddb11fca6c194209a9e746ca435bc9766dbb884e8b13445b4210dd8"
+    }
+  },
+  "outputs": {
+    "split_geo_expanded": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/split_geo_expanded.csv",
+    "master_observations_geo_expanded": "/Users/nehasajja/Documents/DS26_Final/plant-geopriors/artifacts/master_observations_geo_expanded.csv"
+  },
+  "row_counts": {
+    "total": 103314,
+    "iid_baseline": 4400,
+    "expanded_new": 98914,
+    "per_split": {
+      "test": 15498,
+      "train": 72319,
+      "val": 15497
+    },
+    "per_source_split": {
+      "test": {
+        "expanded_new": 14838,
+        "iid_baseline": 660
+      },
+      "train": {
+        "expanded_new": 69239,
+        "iid_baseline": 3080
+      },
+      "val": {
+        "expanded_new": 14837,
+        "iid_baseline": 660
+      }
+    }
+  },
+  "species_missing_in_any_split": []
+}
