@@ -1,0 +1,270 @@
+{
+  "loss": 3.191435613116503,
+  "accuracy": 0.1382555056757373,
+  "per_class": [
+    {
+      "species": "Baccharis pilularis",
+      "count": 1446,
+      "correct": 99,
+      "accuracy": 0.06846473029045644
+    },
+    {
+      "species": "Artemisia californica",
+      "count": 1170,
+      "correct": 6,
+      "accuracy": 0.005128205128205128
+    },
+    {
+      "species": "Achillea millefolium",
+      "count": 1078,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Encelia californica",
+      "count": 971,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Foeniculum vulgare",
+      "count": 727,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Encelia farinosa",
+      "count": 716,
+      "correct": 240,
+      "accuracy": 0.33519553072625696
+    },
+    {
+      "species": "Silybum marianum",
+      "count": 654,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Conium maculatum",
+      "count": 632,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Artemisia douglasiana",
+      "count": 531,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Baccharis salicifolia",
+      "count": 527,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Corethrogyne filaginifolia",
+      "count": 497,
+      "correct": 9,
+      "accuracy": 0.018108651911468814
+    },
+    {
+      "species": "Isocoma menziesii",
+      "count": 472,
+      "correct": 266,
+      "accuracy": 0.5635593220338984
+    },
+    {
+      "species": "Heracleum maximum",
+      "count": 458,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Matricaria discoidea",
+      "count": 388,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Sanicula crassicaulis",
+      "count": 375,
+      "correct": 1,
+      "accuracy": 0.0026666666666666666
+    },
+    {
+      "species": "Briza maxima",
+      "count": 362,
+      "correct": 31,
+      "accuracy": 0.0856353591160221
+    },
+    {
+      "species": "Cirsium vulgare",
+      "count": 356,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Sanicula bipinnatifida",
+      "count": 338,
+      "correct": 19,
+      "accuracy": 0.05621301775147929
+    },
+    {
+      "species": "Geraea canescens",
+      "count": 331,
+      "correct": 146,
+      "accuracy": 0.44108761329305135
+    },
+    {
+      "species": "Cenchrus setaceus",
+      "count": 304,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Centaurea solstitialis",
+      "count": 298,
+      "correct": 8,
+      "accuracy": 0.026845637583892617
+    },
+    {
+      "species": "Dittrichia graveolens",
+      "count": 217,
+      "correct": 83,
+      "accuracy": 0.3824884792626728
+    },
+    {
+      "species": "Hordeum murinum",
+      "count": 206,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Bromus hordeaceus",
+      "count": 177,
+      "correct": 6,
+      "accuracy": 0.03389830508474576
+    },
+    {
+      "species": "Torilis arvensis",
+      "count": 175,
+      "correct": 48,
+      "accuracy": 0.2742857142857143
+    },
+    {
+      "species": "Sanicula arctopoides",
+      "count": 160,
+      "correct": 108,
+      "accuracy": 0.675
+    },
+    {
+      "species": "Daucus pusillus",
+      "count": 157,
+      "correct": 29,
+      "accuracy": 0.18471337579617833
+    },
+    {
+      "species": "Distichlis spicata",
+      "count": 148,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Lomatium dasycarpum",
+      "count": 141,
+      "correct": 1,
+      "accuracy": 0.0070921985815602835
+    },
+    {
+      "species": "Daucus carota",
+      "count": 126,
+      "correct": 53,
+      "accuracy": 0.42063492063492064
+    },
+    {
+      "species": "Arundo donax",
+      "count": 125,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Polypogon monspeliensis",
+      "count": 124,
+      "correct": 14,
+      "accuracy": 0.11290322580645161
+    },
+    {
+      "species": "Bromus rubens",
+      "count": 124,
+      "correct": 46,
+      "accuracy": 0.3709677419354839
+    },
+    {
+      "species": "Anthriscus caucalis",
+      "count": 122,
+      "correct": 4,
+      "accuracy": 0.03278688524590164
+    },
+    {
+      "species": "Leymus condensatus",
+      "count": 120,
+      "correct": 1,
+      "accuracy": 0.008333333333333333
+    },
+    {
+      "species": "Angelica capitellata",
+      "count": 118,
+      "correct": 74,
+      "accuracy": 0.6271186440677966
+    },
+    {
+      "species": "Cortaderia selloana",
+      "count": 97,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Cynosurus echinatus",
+      "count": 93,
+      "correct": 3,
+      "accuracy": 0.03225806451612903
+    },
+    {
+      "species": "Briza minor",
+      "count": 88,
+      "correct": 30,
+      "accuracy": 0.3409090909090909
+    },
+    {
+      "species": "Hilaria rigida",
+      "count": 74,
+      "correct": 8,
+      "accuracy": 0.10810810810810811
+    },
+    {
+      "species": "Scandix pecten-veneris",
+      "count": 74,
+      "correct": 36,
+      "accuracy": 0.4864864864864865
+    },
+    {
+      "species": "Nassella pulchra",
+      "count": 72,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Poa bulbosa",
+      "count": 68,
+      "correct": 9,
+      "accuracy": 0.1323529411764706
+    },
+    {
+      "species": "Angelica hendersonii",
+      "count": 60,
+      "correct": 15,
+      "accuracy": 0.25
+    }
+  ]
+}
