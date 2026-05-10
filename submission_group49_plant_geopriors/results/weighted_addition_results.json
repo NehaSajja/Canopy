@@ -1,0 +1,728 @@
+{
+  "selected_weights": {
+    "alpha": 0.4,
+    "beta": 0.6
+  },
+  "validation_search": [
+    {
+      "alpha": 0.4,
+      "beta": 0.6,
+      "val_loss": 2.3755760192871094,
+      "val_acc": 0.5135869383811951
+    },
+    {
+      "alpha": 0.45,
+      "beta": 0.55,
+      "val_loss": 2.283405065536499,
+      "val_acc": 0.510869562625885
+    },
+    {
+      "alpha": 0.35,
+      "beta": 0.65,
+      "val_loss": 2.482619047164917,
+      "val_acc": 0.5054348111152649
+    },
+    {
+      "alpha": 0.55,
+      "beta": 0.45,
+      "val_loss": 2.139787197113037,
+      "val_acc": 0.5027173757553101
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "val_loss": 2.2051687240600586,
+      "val_acc": 0.5027173757553101
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.4,
+      "val_loss": 2.0861165523529053,
+      "val_acc": 0.49184781312942505
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.3,
+      "val_loss": 2.009392023086548,
+      "val_acc": 0.4836956560611725
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "val_loss": 2.605254650115967,
+      "val_acc": 0.4836956560611725
+    },
+    {
+      "alpha": 0.65,
+      "beta": 0.35,
+      "val_loss": 2.043015480041504,
+      "val_acc": 0.48097825050354004
+    },
+    {
+      "alpha": 0.75,
+      "beta": 0.25,
+      "val_loss": 1.9842338562011719,
+      "val_acc": 0.47554346919059753
+    },
+    {
+      "alpha": 0.8,
+      "beta": 0.2,
+      "val_loss": 1.966620683670044,
+      "val_acc": 0.46739131212234497
+    },
+    {
+      "alpha": 0.85,
+      "beta": 0.15,
+      "val_loss": 1.9557281732559204,
+      "val_acc": 0.46195653080940247
+    },
+    {
+      "alpha": 0.9,
+      "beta": 0.1,
+      "val_loss": 1.9508250951766968,
+      "val_acc": 0.45923912525177
+    },
+    {
+      "alpha": 0.95,
+      "beta": 0.05,
+      "val_loss": 1.9512650966644287,
+      "val_acc": 0.45923912525177
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "val_loss": 1.9564793109893799,
+      "val_acc": 0.45652174949645996
+    },
+    {
+      "alpha": 0.25,
+      "beta": 0.75,
+      "val_loss": 2.743942975997925,
+      "val_acc": 0.4538043439388275
+    },
+    {
+      "alpha": 0.2,
+      "beta": 0.8,
+      "val_loss": 2.8988869190216064,
+      "val_acc": 0.4375
+    },
+    {
+      "alpha": 0.15,
+      "beta": 0.85,
+      "val_loss": 3.070077896118164,
+      "val_acc": 0.35054346919059753
+    },
+    {
+      "alpha": 0.1,
+      "beta": 0.9,
+      "val_loss": 3.257356643676758,
+      "val_acc": 0.2663043439388275
+    },
+    {
+      "alpha": 0.05,
+      "beta": 0.95,
+      "val_loss": 3.4604618549346924,
+      "val_acc": 0.15489129722118378
+    },
+    {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "val_loss": 3.679072141647339,
+      "val_acc": 0.05163043364882469
+    }
+  ],
+  "weighted_validation_accuracy": 0.5135869383811951,
+  "weighted_validation_per_species": [
+    {
+      "label": 4,
+      "name": "Artemisia californica",
+      "correct": 0,
+      "total": 15,
+      "acc": 0.0
+    },
+    {
+      "label": 26,
+      "name": "Foeniculum vulgare",
+      "correct": 0,
+      "total": 3,
+      "acc": 0.0
+    },
+    {
+      "label": 1,
+      "name": "Angelica capitellata",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 2,
+      "name": "Angelica hendersonii",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 3,
+      "name": "Anthriscus caucalis",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 20,
+      "name": "Daucus carota",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 24,
+      "name": "Encelia californica",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 25,
+      "name": "Encelia farinosa",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 27,
+      "name": "Geraea canescens",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 28,
+      "name": "Heracleum maximum",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 38,
+      "name": "Sanicula arctopoides",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 42,
+      "name": "Silybum marianum",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 43,
+      "name": "Torilis arvensis",
+      "correct": 0,
+      "total": 0,
+      "acc": 0.0
+    },
+    {
+      "label": 0,
+      "name": "Achillea millefolium",
+      "correct": 2,
+      "total": 11,
+      "acc": 0.18181818181818182
+    },
+    {
+      "label": 12,
+      "name": "Bromus rubens",
+      "correct": 2,
+      "total": 11,
+      "acc": 0.18181818181818182
+    },
+    {
+      "label": 29,
+      "name": "Hilaria rigida",
+      "correct": 1,
+      "total": 5,
+      "acc": 0.2
+    },
+    {
+      "label": 31,
+      "name": "Isocoma menziesii",
+      "correct": 2,
+      "total": 9,
+      "acc": 0.2222222222222222
+    },
+    {
+      "label": 23,
+      "name": "Dittrichia graveolens",
+      "correct": 4,
+      "total": 15,
+      "acc": 0.26666666666666666
+    },
+    {
+      "label": 8,
+      "name": "Baccharis salicifolia",
+      "correct": 4,
+      "total": 14,
+      "acc": 0.2857142857142857
+    },
+    {
+      "label": 32,
+      "name": "Leymus condensatus",
+      "correct": 5,
+      "total": 15,
+      "acc": 0.3333333333333333
+    },
+    {
+      "label": 30,
+      "name": "Hordeum murinum",
+      "correct": 2,
+      "total": 5,
+      "acc": 0.4
+    },
+    {
+      "label": 5,
+      "name": "Artemisia douglasiana",
+      "correct": 6,
+      "total": 14,
+      "acc": 0.42857142857142855
+    },
+    {
+      "label": 40,
+      "name": "Sanicula crassicaulis",
+      "correct": 5,
+      "total": 11,
+      "acc": 0.45454545454545453
+    },
+    {
+      "label": 7,
+      "name": "Baccharis pilularis",
+      "correct": 7,
+      "total": 15,
+      "acc": 0.4666666666666667
+    },
+    {
+      "label": 22,
+      "name": "Distichlis spicata",
+      "correct": 7,
+      "total": 15,
+      "acc": 0.4666666666666667
+    },
+    {
+      "label": 11,
+      "name": "Bromus hordeaceus",
+      "correct": 7,
+      "total": 14,
+      "acc": 0.5
+    },
+    {
+      "label": 6,
+      "name": "Arundo donax",
+      "correct": 8,
+      "total": 15,
+      "acc": 0.5333333333333333
+    },
+    {
+      "label": 21,
+      "name": "Daucus pusillus",
+      "correct": 8,
+      "total": 15,
+      "acc": 0.5333333333333333
+    },
+    {
+      "label": 16,
+      "name": "Conium maculatum",
+      "correct": 5,
+      "total": 9,
+      "acc": 0.5555555555555556
+    },
+    {
+      "label": 37,
+      "name": "Polypogon monspeliensis",
+      "correct": 5,
+      "total": 9,
+      "acc": 0.5555555555555556
+    },
+    {
+      "label": 17,
+      "name": "Corethrogyne filaginifolia",
+      "correct": 7,
+      "total": 12,
+      "acc": 0.5833333333333334
+    },
+    {
+      "label": 36,
+      "name": "Poa bulbosa",
+      "correct": 6,
+      "total": 10,
+      "acc": 0.6
+    },
+    {
+      "label": 13,
+      "name": "Cenchrus setaceus",
+      "correct": 11,
+      "total": 15,
+      "acc": 0.7333333333333333
+    },
+    {
+      "label": 14,
+      "name": "Centaurea solstitialis",
+      "correct": 11,
+      "total": 15,
+      "acc": 0.7333333333333333
+    },
+    {
+      "label": 19,
+      "name": "Cynosurus echinatus",
+      "correct": 11,
+      "total": 15,
+      "acc": 0.7333333333333333
+    },
+    {
+      "label": 9,
+      "name": "Briza maxima",
+      "correct": 9,
+      "total": 12,
+      "acc": 0.75
+    },
+    {
+      "label": 34,
+      "name": "Matricaria discoidea",
+      "correct": 9,
+      "total": 12,
+      "acc": 0.75
+    },
+    {
+      "label": 10,
+      "name": "Briza minor",
+      "correct": 6,
+      "total": 8,
+      "acc": 0.75
+    },
+    {
+      "label": 15,
+      "name": "Cirsium vulgare",
+      "correct": 10,
+      "total": 13,
+      "acc": 0.7692307692307693
+    },
+    {
+      "label": 35,
+      "name": "Nassella pulchra",
+      "correct": 10,
+      "total": 13,
+      "acc": 0.7692307692307693
+    },
+    {
+      "label": 39,
+      "name": "Sanicula bipinnatifida",
+      "correct": 10,
+      "total": 13,
+      "acc": 0.7692307692307693
+    },
+    {
+      "label": 18,
+      "name": "Cortaderia selloana",
+      "correct": 7,
+      "total": 8,
+      "acc": 0.875
+    },
+    {
+      "label": 33,
+      "name": "Lomatium dasycarpum",
+      "correct": 1,
+      "total": 1,
+      "acc": 1.0
+    },
+    {
+      "label": 41,
+      "name": "Scandix pecten-veneris",
+      "correct": 1,
+      "total": 1,
+      "acc": 1.0
+    }
+  ],
+  "test_comparison": [
+    {
+      "model": "image_only",
+      "loss": 1.9323201179504395,
+      "accuracy": 0.4931880235671997
+    },
+    {
+      "model": "context_only",
+      "loss": 3.666069746017456,
+      "accuracy": 0.04359672963619232
+    },
+    {
+      "model": "weighted_addition",
+      "loss": 2.3257157802581787,
+      "accuracy": 0.5068119764328003
+    }
+  ],
+  "weighted_test_per_species": [
+    {
+      "species": "Centaurea solstitialis",
+      "correct": 14,
+      "total": 15,
+      "accuracy": 0.9333333333333333
+    },
+    {
+      "species": "Poa bulbosa",
+      "correct": 7,
+      "total": 8,
+      "accuracy": 0.875
+    },
+    {
+      "species": "Nassella pulchra",
+      "correct": 13,
+      "total": 15,
+      "accuracy": 0.8666666666666667
+    },
+    {
+      "species": "Sanicula bipinnatifida",
+      "correct": 11,
+      "total": 14,
+      "accuracy": 0.7857142857142857
+    },
+    {
+      "species": "Arundo donax",
+      "correct": 11,
+      "total": 15,
+      "accuracy": 0.7333333333333333
+    },
+    {
+      "species": "Matricaria discoidea",
+      "correct": 9,
+      "total": 13,
+      "accuracy": 0.6923076923076923
+    },
+    {
+      "species": "Briza maxima",
+      "correct": 8,
+      "total": 12,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "species": "Cirsium vulgare",
+      "correct": 9,
+      "total": 14,
+      "accuracy": 0.6428571428571429
+    },
+    {
+      "species": "Conium maculatum",
+      "correct": 5,
+      "total": 8,
+      "accuracy": 0.625
+    },
+    {
+      "species": "Cynosurus echinatus",
+      "correct": 9,
+      "total": 15,
+      "accuracy": 0.6
+    },
+    {
+      "species": "Polypogon monspeliensis",
+      "correct": 7,
+      "total": 12,
+      "accuracy": 0.5833333333333334
+    },
+    {
+      "species": "Distichlis spicata",
+      "correct": 8,
+      "total": 14,
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "species": "Hilaria rigida",
+      "correct": 4,
+      "total": 7,
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "species": "Cenchrus setaceus",
+      "correct": 8,
+      "total": 15,
+      "accuracy": 0.5333333333333333
+    },
+    {
+      "species": "Daucus pusillus",
+      "correct": 8,
+      "total": 15,
+      "accuracy": 0.5333333333333333
+    },
+    {
+      "species": "Foeniculum vulgare",
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    {
+      "species": "Hordeum murinum",
+      "correct": 3,
+      "total": 6,
+      "accuracy": 0.5
+    },
+    {
+      "species": "Lomatium dasycarpum",
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5
+    },
+    {
+      "species": "Achillea millefolium",
+      "correct": 6,
+      "total": 12,
+      "accuracy": 0.5
+    },
+    {
+      "species": "Cortaderia selloana",
+      "correct": 4,
+      "total": 9,
+      "accuracy": 0.4444444444444444
+    },
+    {
+      "species": "Briza minor",
+      "correct": 4,
+      "total": 9,
+      "accuracy": 0.4444444444444444
+    },
+    {
+      "species": "Leymus condensatus",
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4
+    },
+    {
+      "species": "Bromus hordeaceus",
+      "correct": 4,
+      "total": 10,
+      "accuracy": 0.4
+    },
+    {
+      "species": "Sanicula crassicaulis",
+      "correct": 3,
+      "total": 8,
+      "accuracy": 0.375
+    },
+    {
+      "species": "Bromus rubens",
+      "correct": 4,
+      "total": 12,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "species": "Baccharis pilularis",
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "species": "Isocoma menziesii",
+      "correct": 3,
+      "total": 9,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "species": "Dittrichia graveolens",
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "species": "Artemisia douglasiana",
+      "correct": 2,
+      "total": 12,
+      "accuracy": 0.16666666666666666
+    },
+    {
+      "species": "Artemisia californica",
+      "correct": 2,
+      "total": 15,
+      "accuracy": 0.13333333333333333
+    },
+    {
+      "species": "Corethrogyne filaginifolia",
+      "correct": 1,
+      "total": 10,
+      "accuracy": 0.1
+    },
+    {
+      "species": "Baccharis salicifolia",
+      "correct": 1,
+      "total": 12,
+      "accuracy": 0.08333333333333333
+    },
+    {
+      "species": "Anthriscus caucalis",
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Silybum marianum",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Scandix pecten-veneris",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Angelica hendersonii",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Sanicula arctopoides",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Geraea canescens",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Heracleum maximum",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Angelica capitellata",
+      "correct": 0,
+      "total": 1,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Daucus carota",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Encelia californica",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Encelia farinosa",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    },
+    {
+      "species": "Torilis arvensis",
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0.0
+    }
+  ]
+}
