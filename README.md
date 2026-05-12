@@ -1,3 +1,5 @@
+**Start here:** the main CS1090B submission notebook is [notebooks/cs1090b_ms4_main_group49.ipynb](notebooks/cs1090b_ms4_main_group49.ipynb).
+
 # plant-geopriors
 
 **Late-fusion of visual and geographic-temporal context for fine-grained plant species classification.**
@@ -99,6 +101,7 @@ Small head over concatenated baseline logits: R⁸⁸ → Linear → R²⁵⁶ �
 ```
 plant-geopriors/
 ├── notebooks/
+│   ├── cs1090b_ms4_main_group49.ipynb                  # Main CS1090B submission notebook
 │   ├── 01_eda.ipynb                                     # California EDA
 │   ├── 02_results.ipynb                                 # Aggregated results & figures
 │   ├── 03_us_species_selection.ipynb                    # US-wide selection (exploratory)
@@ -107,37 +110,41 @@ plant-geopriors/
 │   ├── 06_EDA_Baseline_Modeling_and_Pipeline_Development.ipynb
 │   ├── 07_weighted_addition_model.ipynb                 # α·image + β·context fusion
 │   └── 08_Expanded_Baselines_MLP_combination.ipynb      # Trainable Fusion MLP head
-├── src/
-│   ├── data.py           # Loading, preprocessing, sinusoidal encoding
-│   ├── models.py         # ResNet50, Geo MLP, Fusion MLP definitions
-│   ├── train.py          # Training loop
-│   └── eval.py           # Evaluation metrics (balanced accuracy, per-family, per-species)
 ├── scripts/
-│   ├── prepare_data.py
-│   ├── build_expanded_splits.py    # Builds the 103k-row split preserving image-backed assignments
-│   ├── run_train.py
-│   └── run_eval.py
+│   └── build_expanded_splits.py                         # Builds the 103k-row split preserving image-backed assignments
 ├── configs/
 │   ├── exp_image.yaml
 │   ├── exp_context.yaml
 │   └── exp_multimodal.yaml
+├── data/
+│   ├── CA_3Species_Raw.csv                              # Raw California occurrence export
+│   ├── image_metadata.csv
+│   └── images/                                          # Image location placeholder / local image cache location
 ├── artifacts/
-│   ├── master_observations.csv                  # 4,400-row image-backed table
-│   ├── master_observations_geo_expanded.csv     # 103,314-row geo-expanded table
-│   ├── split_iid.csv                            # Image-backed splits
-│   ├── split_geo_expanded.csv                   # Expanded splits (preserves image-backed assignments)
+│   ├── master_df_img_and_geo.csv                         # Image-aligned modeling table with geo features
+│   ├── master_observations.csv                           # 4,400-row image-backed table
+│   ├── master_observations_geo_expanded.csv              # 103,314-row geo-expanded table
+│   ├── split_iid.csv                                     # Image-backed splits
+│   ├── split_geo_expanded.csv                            # Expanded splits preserving image-backed assignments
+│   ├── split_geo_expanded_manifest.json
+│   ├── time_geo_species_df.csv                           # Source table for expanded geo/time split and family labels
+│   ├── fusion_mlp_logits_expanded.pth                    # Cached Fusion MLP evaluation logits
 │   ├── label_encoder.pkl
 │   ├── label_mapping.json
-│   └── selections_ca/                           # EDA caches and selected-species artifacts
+│   └── selections_ca/                                    # EDA caches and selected-species artifacts
 ├── checkpoints/
 │   ├── resnet50_finetune.pth
+│   ├── resnet50_history.pth
 │   ├── geo_baseline.pth
+│   ├── geo_baseline_history.pth
 │   ├── geo_baseline_expanded.pth
+│   ├── geo_baseline_expanded_history.pth
 │   ├── fusion_mlp.pth
+│   ├── fusion_mlp_history.pth
 │   └── weighted_addition_logits.pth
-├── results/                                     # Confusion matrices, per-species plots, deltas
-└── reports/
-    └── final_report_v1.tex
+├── results/                                              # Confusion matrices, per-family/per-species plots, deltas
+├── requirements.txt
+└── README.md
 ```
 
 ---
