@@ -86,7 +86,7 @@ Small head over concatenated baseline logits: R⁸⁸ → Linear → R²⁵⁶ �
 
 ## Key Findings
 
-- **Per-family:** Fusion helps **Apiaceae** the most (ResNet 0.80 → Fusion MLP 0.87). **Asteraceae** is best served by ResNet alone (0.33 vs Fusion 0.27). **Poaceae** remains essentially unlearnable for every model (≈ 0.00).
+- **Per-family:** All three families end up at similar fusion-MLP balanced accuracy (Apiaceae 0.53, Asteraceae 0.49, Poaceae 0.55), but the **gain from fusion** differs sharply. **Apiaceae** benefits most (ResNet 0.41 → Fusion 0.53, **+0.12**) — the umbellifers are visually ambiguous, so the geographic prior has the most room to help. **Asteraceae** sees a modest lift (0.43 → 0.49, **+0.06**). **Poaceae** is already the strongest family under image alone (0.54) and gains almost nothing from fusion (0.55, **+0.01**) — most California grasses have wide overlapping ranges, so the geo prior carries little discriminative signal. The geo baseline alone is uniformly weak across families (0.06–0.13).
 - **Per-species (Fusion vs ResNet):** 10 species regress slightly; the species that improve do so substantially (up to +0.60, e.g., Daucus carota: 0.00 → 0.60). The trainable head is more aggressive than weighted addition in both directions — it amplifies geo signal where it helps, but can over-correct where it doesn't.
 - **Regression case study:** Centaurea solstitialis drops from 67% (ResNet) to 33% (Fusion). Its geographically widespread distribution overlaps with its top confusers, so the geo prior adds noise rather than signal.
 - **Deployment tradeoff:** weighted addition is *safer* (fewer regressions); Fusion MLP wins on *overall balanced accuracy* but takes bigger swings per species.
@@ -157,7 +157,7 @@ The notebooks are numbered to reflect the recommended reading order. Trained che
 
 1. **Richer geo features.** Replace or augment the 6 sinusoidal features with bioclim variables, elevation, or species-distribution-model priors — Mac Aodha et al. (2019) suggest this as the most natural next step.
 2. **End-to-end fine-tuning.** Both fusion models freeze the backbones. Unfreezing the ResNet50 alongside concatenated context features would let the visual representation adapt to the prior.
-3. **Per-species fusion weights.** The weighted-addition uses a single global (α, β). Learning a per-species or per-family weight could capture the fact that geo helps Apiaceae but hurts widespread Asteraceae.
+3. **Per-species fusion weights.** The weighted-addition uses a single global (α, β). Learning a per-species or per-family weight could capture the within-family heterogeneity our analysis surfaces — e.g., geo lifts most Apiaceae species but several widespread Poaceae grasses (*Arundo donax*, *Distichlis spicata*, *Bromus hordeaceus*) regress under fusion because the geographic prior is uninformative for them.
 
 ---
 
